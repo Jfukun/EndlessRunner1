@@ -1,0 +1,147 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Advertisements;
+using UnityEngine.SceneManagement;
+
+public class AdsManager : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowListener, IUnityAdsInitializationListener
+{
+    public string m_AndroidGameID;
+    //public string m_iOSGameID;
+
+    bool testMode = true;
+
+    private string m_InsterstitialAdID = "Interstitial_Android";
+    private string m_Rewarded_Android = "Rewarded_Android";
+    private string m_Banner_Android = "Banner_Android";
+
+    float m_Countdown;
+    private bool m_InterstitialAdLoaded = false;
+    private bool m_RewardedAdLoaded = false;
+    private bool m_BannerAdLoaded = false;
+
+    public class AdInfo
+    {
+        public string adID;
+        public bool isLoaded;
+        public float countdownToRetryLoad;
+
+        public AdInfo(string adID)
+        {
+            this.adID = adID;
+            isLoaded = false;
+            countdownToRetryLoad = 3f;
+        }
+    }
+
+    public AdInfo m_InterstitialAdInfo = new AdInfo ("Interstitial_Android");
+    public AdInfo m_BannerAdInfo = new AdInfo("Banner_Android");
+    public AdInfo m_RewardedAdInfo = new AdInfo ( "Rewarded_Android" );
+
+    public Dictionary<string, AdInfo> m_AllAds = new Dictionary<string, AdInfo>();
+    
+    void Start()
+    {
+        m_Countdown = 3f;
+        Advertisement.Initialize(m_AndroidGameID, testMode,this); 
+    }
+    public void LoadAd(AdInfo thisAd)
+    {
+        m_AllAds.Add(thisAd.adID, thisAd);
+        Advertisement.Load(thisAd.adID,this);
+    }
+    private void Update()
+    {
+        
+    }
+
+    public void OnUnityAdsAdLoaded(string placementID)
+    {
+
+        AdInfo whichAd = m_AllAds[placementID];
+        whichAd.isLoaded = true;
+    }
+
+    public void OnUnityAdsFailedToLoad(string placementId, UnityAdsLoadError error, string message)
+    {
+        StartCoroutine(RetryLoad(placementId));
+        
+    }
+    private IEnumerator RetryLoad(string placementId)
+    {
+        float countdown = m_AllAds[placementId].countdownToRetryLoad;
+        while(countdown > 0f)
+        {
+            countdown -= Time.deltaTime;
+            yield return null;
+        }
+        Advertisement.Load(placementId, this);
+        
+    }
+
+    public void ShowInterstitialAd()
+    {
+        if (m_AllAds[m_InterstitialAdInfo.adID].isLoaded)
+        {
+            Advertisement.Show(m_InterstitialAdInfo.adID, this);
+        }
+
+        SceneManager.LoadScene(0);
+    }public void ShowRewardedAd()
+    {
+        if (m_AllAds[m_RewardedAdInfo.adID].isLoaded)
+        {
+            Advertisement.Show(m_RewardedAdInfo.adID, this);
+        }
+    }
+    public void OnUnityAdsShowFailure(string placementId, UnityAdsShowError error, string message)
+    {
+        SceneManager.LoadScene(0);
+        //throw new System.NotImplementedException();
+    }
+
+    public void OnUnityAdsShowStart(string placementId)
+    {
+        //throw new System.NotImplementedException();
+    }
+
+    public void OnUnityAdsShowClick(string placementId)
+    {
+        //throw new System.NotImplementedException();
+    }
+
+    public void OnUnityAdsShowComplete(string placementId, UnityAdsShowCompletionState showCompletionState)
+    {
+      if(placementId == m_InterstitialAdInfo.adID)
+        {
+            SceneManager.LoadScene(0);
+        }else if(placementId == m_RewardedAdInfo.adID)
+        {
+            if(showCompletionState == UnityAdsShowCompletionState.COMPLETED)
+            {
+                FindFirstObjectByType<TileManager>().m_IsGameOver = false;
+            }
+            else
+            {
+                SceneManager.LoadScene(0);
+            }
+
+            
+
+        }
+    }
+
+    public void OnInitializationComplete()
+    {
+        Advertisement.Banner.SetPosition((BannerPosition)Random.Range(0, 8));
+        
+        LoadAd(m_InterstitialAdInfo);
+        LoadAd(m_BannerAdInfo);
+        LoadAd(m_RewardedAdInfo);
+    }
+
+    public void OnInitializationFailed(UnityAdsInitializationError error, string message)
+    {
+        throw new System.NotImplementedException();
+    }
+}

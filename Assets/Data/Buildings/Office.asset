@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d956f6d9cd74d7f4bb68a027e180680c, type: 3}
+  m_Name: Office
+  m_EditorClassIdentifier: Assembly-CSharp::BuildingData
+  m_BuilidingID: baseoffice
+  m_BuilidingName: Basic Office
+  m_Building_InitialStage: {fileID: 21300000, guid: c7b1018d92c8a8345ae37769a8dc3b6e, type: 3}
+  m_Building_FinalStage: {fileID: 21300000, guid: 495e31cbbd354f94ea866252c91f99d0, type: 3}
+  m_BuilidingCashCost: 20
+  m_BuildingMaterialsCost: 50
+  m_BuilidingCashRevenue: 10
+  m_BuildingMaterialsRevenue: 0
+  m_ConstructionTime: 60
+  m_ProductionTime: 30

@@ -1,39 +1,52 @@
 using UnityEngine;
 
-public static class GameManager 
+public static class GameManager
 {
-    public static int m_Cash = 100;
-    public static int m_Materials = 100;
-    public static int m_Gems = 10;
+    private const string KEY_COINS = "Coins";
+    private const string KEY_GEMS = "Gems";
 
-    public static void AddResources(int cash, int materials, int gems = 0)
+    public static int Coins { get; private set; }
+    public static int Gems { get; private set; }
+
+    public static void Load()
     {
-        m_Cash += cash;
-        m_Materials += materials;
-        m_Gems += gems;
-        ResourcesBar.m_Instance.UpdateValues();
-
-       
+        Coins = PlayerPrefs.GetInt(KEY_COINS, 0);
+        Gems = PlayerPrefs.GetInt(KEY_GEMS, 0);
     }
 
-    public static (bool,bool) TryToSpend(int cash, int materials, int gems)
+    public static void Save()
     {
-        if (m_Gems >= gems)
-        {
-            m_Gems -= gems;
-            ResourcesBar.m_Instance.UpdateValues();
+        PlayerPrefs.SetInt(KEY_COINS, Coins);
+        PlayerPrefs.SetInt(KEY_GEMS, Gems);
+        PlayerPrefs.Save();
+    }
 
-            return (true,true); 
-        }
+    public static void AddCoins(int amount)
+    {
+        Coins += amount;
+        Save();
+    }
 
-        if(m_Cash >= cash && m_Materials >= materials)
-        {
-            m_Cash -= cash;
-            m_Materials -= materials;
-            ResourcesBar.m_Instance.UpdateValues();
-            return (true,false);
-        }
+    public static void AddGems(int amount)
+    {
+        Gems += amount;
+        Save();
+    }
 
-        return (false,false);
+    // Returns true and deducts if the player can afford it
+    public static bool TrySpendCoins(int amount)
+    {
+        if (Coins < amount) return false;
+        Coins -= amount;
+        Save();
+        return true;
+    }
+
+    public static bool TrySpendGems(int amount)
+    {
+        if (Gems < amount) return false;
+        Gems -= amount;
+        Save();
+        return true;
     }
 }

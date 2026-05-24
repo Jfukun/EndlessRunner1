@@ -42,6 +42,7 @@ public class ScoreManager : MonoBehaviour
     {
         m_Instance.m_Score += m_Instance.m_CoinBonus;
         m_Instance.m_CurrentScoreText.text = "Score: " + Mathf.FloorToInt(m_Instance.m_Score);
+        SoundsManager.SoundCoin();
         GameManager.AddCoins(1);
     }
 

@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
         {
             m_TileManager.m_IsGameOver = true;
             Handheld.Vibrate();
-
+            SoundsManager.SoundHit();
             if (m_HitParticle != null)
             {
                 m_HitParticle.gameObject.SetActive(true);

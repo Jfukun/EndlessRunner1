@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
             m_GameOverScreenWithoutReward.SetActive(!adReady);
         }
 
-        if (other.gameObject.layer == LayerMask.NameToLayer("Coins"))
+        if (other.gameObject.layer == LayerMask.NameToLayer("gems"))
         {
             other.gameObject.SetActive(false);
             ScoreManager.AddCoin();  

@@ -13,8 +13,19 @@ public class TouchController : MonoBehaviour
     
 
     public Transform m_Transform;
-   
 
+    public Animator m_Animator;
+
+    public float verticalSpeed = 5f;
+    public float horizontalSpeed = 15f;
+    public float holdTime = 1f;
+
+    private float m_DefaultY = 1.25f;
+    private float m_TargetY = 1.25f;
+    private float m_TargetX = 0f;
+
+    private float m_Timer = 0f;
+    private bool m_IsHolding = false;
 
 
     void Update()
@@ -79,63 +90,80 @@ public class TouchController : MonoBehaviour
                 }else swipeUp = true;
             }
             Reset();
+            
             if (swipeLeft)
             {
-               
-                if (m_CurrentPosition.x > -2.5)
+                if (m_TargetX > -2.5f)
                 {
-                    m_CurrentPosition.x -= 2.5f;
-                    m_Transform.position = m_CurrentPosition;
+                    m_TargetX -= 2.5f;
                 }
-               
+
                 Debug.Log("SwipeLeft");
+
             }else if(swipeRight)
             {
-                
-                if (m_CurrentPosition.x < 2.5)
+                if (m_TargetX < 2.5f)
                 {
-                    m_CurrentPosition.x += 2.5f;
-                    m_Transform.position = m_CurrentPosition;
+                    m_TargetX += 2.5f;
                 }
-               
+
                 Debug.Log("SwipeRight");
+
             }else if (swipeUp)
             {
-               
-                if(m_CurrentPosition.y < 2.25)
-                {
-                    m_CurrentPosition.y = 2.25f;
-                    m_Transform.position= m_CurrentPosition;
-                }
-                    
-                
-               
-                
-                   
-                
+             
+                m_TargetY = 2.25f;
+                m_IsHolding = false;
+                m_Timer = holdTime;
 
-                
+                if (m_Animator != null) m_Animator.speed = 0f;
+
                 Debug.Log("SwipeUp");
-            }else if (swipeDown)
+
+            }
+            else if (swipeDown)
             {
 
-                if (m_CurrentPosition.y > 0.75)
-                {
-                    m_CurrentPosition.y = 0.75f;
-                    m_Transform.position = m_CurrentPosition;
-                }
+                m_TargetY = 0.75f;
+                m_IsHolding = false;
+                m_Timer = holdTime;
+                this.transform.rotation = Quaternion.Euler(-90, 0, 0);
 
-                
+                if (m_Animator != null) m_Animator.speed = 0f;
 
-
-                Debug.Log("SwipeDown");
+                Debug.Log("SwipeDown"); ;
             }
-            
-            
-              
-            
-
         }
+
+        if (m_CurrentPosition.x != m_TargetX)
+        {
+            m_CurrentPosition.x = Mathf.MoveTowards(m_CurrentPosition.x, m_TargetX, horizontalSpeed * Time.deltaTime);
+        }
+
+        if (m_CurrentPosition.y != m_TargetY)
+        {
+            m_CurrentPosition.y = Mathf.MoveTowards(m_CurrentPosition.y, m_TargetY, verticalSpeed * Time.deltaTime);
+
+            if (Mathf.Approximately(m_CurrentPosition.y, m_TargetY) && m_TargetY != m_DefaultY)
+            {
+                m_IsHolding = true;
+            }
+        }
+
+        if (m_IsHolding)
+        {
+            m_Timer -= Time.deltaTime;
+            if (m_Timer <= 0)
+            {
+                m_TargetY = m_DefaultY;
+                m_IsHolding = false;
+
+                this.transform.rotation = Quaternion.Euler(0, 0, 0);
+                if (m_Animator != null) m_Animator.speed = 1f;
+            }
+        }
+
+        m_Transform.position = m_CurrentPosition;
     }
 
     private void Reset()

@@ -26,22 +26,44 @@ public static class SaveGameManager
         };
 
         File.WriteAllText(FilePath, JsonUtility.ToJson(data, prettyPrint: true));
-        Debug.Log($"[SaveGameManager] Game saved to {FilePath}");
+        Debug.Log($"[SaveGameManager] Saved — highscore: {highScore}, coins: {data.totalCoins}, gems: {data.totalGems}");
     }
 
-    public static void Load()
+    public static int Load()
     {
+        // Always start currencies from zero — they will be restored from the save file
+        int loadedHighScore = 0;
+
         if (!File.Exists(FilePath))
         {
             Debug.Log("[SaveGameManager] No save file found, starting fresh.");
-            GameManager.Load(); 
-            return;
+            // Clear any leftover PlayerPrefs from old sessions
+            PlayerPrefs.DeleteKey("RecordScore");
+            PlayerPrefs.Save();
+            return 0;
         }
 
         string json = File.ReadAllText(FilePath);
         SaveData data = JsonUtility.FromJson<SaveData>(json);
 
-        GameManager.Load();
+        // Restore currencies into GameManager
+        GameManager.SetCoins(data.totalCoins);
+        GameManager.SetGems(data.totalGems);
+
+        loadedHighScore = data.highScore;
         Debug.Log($"[SaveGameManager] Loaded — highscore: {data.highScore}, coins: {data.totalCoins}, gems: {data.totalGems}");
+
+        return loadedHighScore;
+    }
+
+    // Call this from a debug button in the options menu during development
+    public static void DeleteSave()
+    {
+        if (File.Exists(FilePath)) File.Delete(FilePath);
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.Save();
+        GameManager.SetCoins(0);
+        GameManager.SetGems(0);
+        Debug.Log("[SaveGameManager] Save deleted.");
     }
 }

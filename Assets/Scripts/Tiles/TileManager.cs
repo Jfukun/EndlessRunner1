@@ -14,8 +14,8 @@ public class TileManager : MonoBehaviour
 
     [Header("Speed / Difficulty")]
     public float m_TileSpeed = 10.0f;
-    public float m_MaxTileSpeed = 30.0f;
-    public float m_SpeedIncreaseRate = 1.5f;   
+    public float m_MaxTileSpeed = 40.0f;
+    public float m_SpeedIncreaseRate = 0.8f;   
 
     public float m_ZposToDissappear = -30.0f;
 

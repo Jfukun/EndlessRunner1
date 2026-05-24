@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class OptionsMenu : MonoBehaviour
@@ -6,15 +7,15 @@ public class OptionsMenu : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip clickSound;
 
+
+
     [SerializeField] private string SceneName;
 
-    public void PlayClickSound()
-    {
-        audioSource.PlayOneShot(clickSound);
-    }
+
 
     public void ChangeScene()
     {
+        SoundsManager.SoundButton();
         SceneManager.LoadScene(SceneName);
     }
 
@@ -22,4 +23,6 @@ public class OptionsMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
+
 }

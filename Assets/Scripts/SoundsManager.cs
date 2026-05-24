@@ -7,6 +7,9 @@ public class SoundsManager : MonoBehaviour
     public AudioSource m_AudioSource;
     public AudioClip Coin;
     public AudioClip  Button;
+    public AudioClip Slide;
+    public AudioClip Hit;
+    public AudioClip Jump;
 
     private void Awake()
     {
@@ -25,6 +28,18 @@ public class SoundsManager : MonoBehaviour
 
     public static void SoundHit()
     {
-        m_Instance.m_AudioSource.PlayOneShot(m_Instance.Coin);
+        m_Instance.m_AudioSource.PlayOneShot(m_Instance.Hit);
     }
+
+    public static void SoundJump()
+    {
+        m_Instance.m_AudioSource.PlayOneShot(m_Instance.Jump);
+    }
+
+    public static void SoundSlide()
+    {
+        m_Instance.m_AudioSource.PlayOneShot(m_Instance.Slide);
+    }
+
+
 }

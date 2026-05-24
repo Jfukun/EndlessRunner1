@@ -118,6 +118,8 @@ public class TouchController : MonoBehaviour
 
                 Debug.Log("SwipeUp");
 
+                SoundsManager.SoundJump();
+
             }
             else if (swipeDown)
             {
@@ -129,7 +131,9 @@ public class TouchController : MonoBehaviour
 
                 if (m_Animator != null) m_Animator.speed = 0f;
 
-                Debug.Log("SwipeDown"); ;
+                Debug.Log("SwipeDown"); 
+
+                SoundsManager.SoundSlide();
             }
         }
 

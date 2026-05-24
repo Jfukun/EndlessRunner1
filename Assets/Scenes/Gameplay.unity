@@ -5572,8 +5572,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 288688b1c54855a40b8e12c0813ed390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldCurver
-  curveStrength: 0.0036928284
-  curveStrength2: 0.00046715248
+  curveStrength: 0.002151749
+  curveStrength2: -0.0007394782
 --- !u!1 &319090016
 GameObject:
   m_ObjectHideFlags: 0
@@ -13120,7 +13120,7 @@ AudioSource:
   m_GameObject: {fileID: 2023534010}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 785018726994210062, guid: eef4e43a0f74b10479688e217f68756b, type: 2}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: eef4e43a0f74b10479688e217f68756b, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -13222,7 +13222,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SoundsManager
   m_AudioSource: {fileID: 2023534012}
   Coin: {fileID: 8300000, guid: 2060db6a0a5096b47a793ac55780ef67, type: 3}
-  Button: {fileID: 0}
+  Button: {fileID: 8300000, guid: 82272b6e4a9816c47815f4a4dc58b39c, type: 3}
+  Slide: {fileID: 8300000, guid: 48a6ff8515d837f4682bcfd443d572d3, type: 3}
+  Hit: {fileID: 8300000, guid: 63e8a59c95b8e324485a1b22a3435d86, type: 3}
+  Jump: {fileID: 8300000, guid: 784dc91308c4410439b97dca0de905d5, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

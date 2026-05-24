@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|c:\\users\\jaime\\documents\\github\\diseno3d\\endlessrunnerfinalproject\\endlessrunner1\\assets\\scripts\\savegamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savegamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|c:\\users\\jaime\\documents\\github\\diseno3d\\endlessrunnerfinalproject\\endlessrunner1\\assets\\scripts\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\assets\\scripts\\optionsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\optionsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\assets\\scripts\\soundsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\assets\\scripts\\adsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\adsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\assets\\scripts\\savegamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savegamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\assets\\scripts\\touchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +39,16 @@
       "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|c:\\users\\jaime\\documents\\github\\diseno3d\\endlessrunnerfinalproject\\endlessrunner1\\assets\\scripts\\tiles\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\assets\\scripts\\tiles\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tiles\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|c:\\users\\jaime\\documents\\github\\diseno3d\\endlessrunnerfinalproject\\endlessrunner1\\assets\\scripts\\titlepulse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\assets\\scripts\\titlepulse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\titlepulse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\assets\\shaders\\worldcurver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\worldcurver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\assets\\scripts\\backgroundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,37 +66,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SaveGameManager.cs",
-              "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\SaveGameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SaveGameManager.cs",
-              "ToolTip": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\SaveGameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SaveGameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\SliderController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SliderController.cs",
+              "ToolTip": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\SliderController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SliderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T14:22:04.516Z",
+              "WhenOpened": "2026-05-24T16:08:19.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Tile.cs",
-              "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\Tiles\\Tile.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Tiles\\Tile.cs",
-              "ToolTip": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\Tiles\\Tile.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Tiles\\Tile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "SoundsManager.cs",
+              "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\SoundsManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundsManager.cs",
+              "ToolTip": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\SoundsManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SoundsManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T14:08:07.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T14:26:36.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "TitlePulse.cs",
               "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\TitlePulse.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TitlePulse.cs",
@@ -92,12 +103,11 @@
               "RelativeToolTip": "Assets\\Scripts\\TitlePulse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T03:09:49.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T03:09:49.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "TileManager.cs",
               "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\Tiles\\TileManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tiles\\TileManager.cs",
@@ -109,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "WorldCurver.cs",
               "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Shaders\\WorldCurver.cs",
               "RelativeDocumentMoniker": "Assets\\Shaders\\WorldCurver.cs",
@@ -117,38 +127,35 @@
               "RelativeToolTip": "Assets\\Shaders\\WorldCurver.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T22:56:13.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T22:56:13.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAC4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T22:53:21.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T22:53:21.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
               "ToolTip": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\ScoreManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwCwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T22:52:36.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T22:52:36.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "TouchController.cs",
               "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\TouchController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TouchController.cs",
@@ -156,12 +163,59 @@
               "RelativeToolTip": "Assets\\Scripts\\TouchController.cs",
               "ViewState": "AgIAAIwAAAAAAAAAAAAAAJ8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:41:19.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:41:19.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "OptionsMenu.cs",
+              "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\OptionsMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OptionsMenu.cs",
+              "ToolTip": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\OptionsMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OptionsMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T15:40:18.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdsManager.cs",
+              "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\AdsManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AdsManager.cs",
+              "ToolTip": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\AdsManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AdsManager.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAApwEEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T15:45:29.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SaveGameManager.cs",
+              "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\SaveGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SaveGameManager.cs",
+              "ToolTip": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\SaveGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SaveGameManager.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:22:04.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tile.cs",
+              "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\Tiles\\Tile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tiles\\Tile.cs",
+              "ToolTip": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\Tiles\\Tile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tiles\\Tile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:08:07.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -169,25 +223,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:58.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:40:58.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OptionsMenu.cs",
-              "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\OptionsMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\OptionsMenu.cs",
-              "ToolTip": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\OptionsMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\OptionsMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:18.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "BackgroundManager.cs",
               "DocumentMoniker": "C:\\Users\\jaime\\Documents\\GitHub\\Diseno3D\\EndlessRunnerFinalProject\\EndlessRunner1\\Assets\\Scripts\\BackgroundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BackgroundManager.cs",

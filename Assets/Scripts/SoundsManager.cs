@@ -18,7 +18,7 @@ public class SoundsManager : MonoBehaviour
 
     public static void SoundCoin()
     {
-        m_Instance.m_AudioSource.PlayOneShot(m_Instance.Coin);
+        m_Instance.m_AudioSource.PlayOneShot(m_Instance.Coin, 0.4f);  
     }
 
     public static void SoundButton()

@@ -5464,8 +5464,8 @@ MonoBehaviour:
   m_NumberOfTiles: 11
   m_PoolSizePerPrefab: 4
   m_TileSpeed: 5
-  m_MaxTileSpeed: 30
-  m_SpeedIncreaseRate: 1.5
+  m_MaxTileSpeed: 60
+  m_SpeedIncreaseRate: 0.5
   m_ZposToDissappear: -30
   m_IsGameOver: 0
 --- !u!4 &262341684
@@ -5495,8 +5495,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 288688b1c54855a40b8e12c0813ed390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldCurver
-  curveStrength: 0.0035875211
-  curveStrength2: -0.0014720997
+  curveStrength: 0.0004304004
+  curveStrength2: 0.0016216772
 --- !u!1 &319090016
 GameObject:
   m_ObjectHideFlags: 0
@@ -7753,8 +7753,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
   m_CurrentScoreText: {fileID: 1713771414}
   m_RecordScoreText: {fileID: 1453488793}
-  m_ScoreMultiplier: 0.5
-  m_CoinBonus: 5
+  m_ScoreMultiplier: 0.3
+  m_CoinBonus: 2
 --- !u!4 &1696378304
 Transform:
   m_ObjectHideFlags: 0

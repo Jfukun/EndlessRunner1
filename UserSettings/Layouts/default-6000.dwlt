@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 820.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 498}
   m_MaxSize: {x: 10000, y: 10000}
@@ -592,7 +592,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 824, y: 463.24997}
+  m_TargetSize: {x: 923.75, y: 463.24997}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -607,8 +607,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -329.6
-    m_HBaseRangeMax: 329.6
+    m_HBaseRangeMin: -369.5
+    m_HBaseRangeMax: 369.5
     m_VBaseRangeMin: -185.29999
     m_VBaseRangeMax: 185.29999
     m_HAllowExceedBaseRangeMin: 1
@@ -1769,16 +1769,15 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 50928
+      - m_Data: 50282
       m_LastClickedID:
-        m_Data: 50928
+        m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -8788
-      - m_Data: -1360
+      - m_Data: -1364
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Canvas
-        m_OriginalName: Canvas
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -1786,10 +1785,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: 50836
+          m_Data: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 9}
@@ -1849,7 +1848,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 2
     m_Folders:
-    - Assets
+    - Assets/IImages
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1859,7 +1858,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 52
   m_LastFolders:
-  - Assets
+  - Assets/IImages
   m_LastFoldersGridSize: 52
   m_LastProjectPath: "C:\\Universidad\\Cuarto\\2\xBA\\Moviles\\Proyecto\\EndlessRunner1"
   m_LockTracker:
@@ -1868,9 +1867,9 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 54472
+    - m_Data: 54586
     m_LastClickedID:
-      m_Data: 54472
+      m_Data: 54586
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 54472
@@ -1939,8 +1938,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 50928
-    m_LastClickedInstanceID: 50928
+    - m_Data: 50282
+    m_LastClickedInstanceID: 50282
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs:
     - m_Data: -125532
@@ -1994,7 +1993,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 1921.2}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 52
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 173.33334

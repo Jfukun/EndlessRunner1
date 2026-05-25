@@ -5495,8 +5495,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 288688b1c54855a40b8e12c0813ed390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldCurver
-  curveStrength: 0.0004304004
-  curveStrength2: 0.0016216772
+  curveStrength: 0.0030177576
+  curveStrength2: 0.0016502173
 --- !u!1 &319090016
 GameObject:
   m_ObjectHideFlags: 0

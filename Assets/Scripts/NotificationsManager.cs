@@ -48,7 +48,7 @@ public class NotificationsManager : MonoBehaviour
         Send(
             title: "Ready for another run?",
             text: "Your record is waiting to be broken. Get back in there!",
-            delaySeconds: 60 * 120  
+            delaySeconds: 60 * 120
         );
     }
 
@@ -57,7 +57,7 @@ public class NotificationsManager : MonoBehaviour
         Send(
             title: "Daily challenge available!",
             text: "A new run awaits. How far can you go today?",
-            delaySeconds: 60 * 60 * 24   
+            delaySeconds: 60 * 60 * 24
         );
     }
 
@@ -67,9 +67,7 @@ public class NotificationsManager : MonoBehaviour
         {
             Title = title,
             Text = text,
-            FireTime = System.DateTime.Now.AddSeconds(delaySeconds),
-            SmallIcon = "small_icon",
-            LargeIcon = "large_icon"
+            FireTime = System.DateTime.Now.AddSeconds(delaySeconds)
         };
         AndroidNotificationCenter.SendNotification(notification, CHANNEL_ID);
     }

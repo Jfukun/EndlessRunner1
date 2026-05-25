@@ -71,7 +71,9 @@ public class TouchController : MonoBehaviour
 
         }
 
-        if(m_SwipeDelta.magnitude > 125)
+        float swipeThreshold = Mathf.Max(Screen.width, Screen.height) * 0.05f;
+
+        if (m_SwipeDelta.magnitude > swipeThreshold)
         {
             float x = m_SwipeDelta.x;
             float y = m_SwipeDelta.y;

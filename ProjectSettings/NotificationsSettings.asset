@@ -43,21 +43,17 @@
         },
         "DrawableResources": [
             {
-                "Id": "small_Icon",
+                "Id": "small_icon",
                 "Type": 0,
                 "Asset": {
-                    "fileID": 2800000,
-                    "guid": "a66181ac9a7b1944799ff9b2d4fff7c9",
-                    "type": 3
+                    "instanceID": 0
                 }
             },
             {
-                "Id": "Large_Icon",
+                "Id": "large_icon",
                 "Type": 1,
                 "Asset": {
-                    "fileID": 2800000,
-                    "guid": "b517cc0c827e0894cbfc98b5980b9ab6",
-                    "type": 3
+                    "instanceID": 0
                 }
             }
         ]

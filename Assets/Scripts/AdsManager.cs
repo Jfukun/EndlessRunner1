@@ -63,10 +63,21 @@ public class AdsManager : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowLis
 
     public void ShowInterstitialAd()
     {
-        if (m_AllAds[m_InterstitialAdInfo.adID].isLoaded)
-            Advertisement.Show(m_InterstitialAdInfo.adID, this);
+        if (m_AllAds.ContainsKey(m_InterstitialAdInfo.adID))
+        {
+            if (m_AllAds[m_InterstitialAdInfo.adID].isLoaded)
+            {
+                Advertisement.Show(m_InterstitialAdInfo.adID, this);
+            }
+            else
+            {
+                SceneManager.LoadScene(0);
+            }
+        }
         else
-            SceneManager.LoadScene(0);
+        {
+            Debug.LogError("No existe el anuncio: " + m_InterstitialAdInfo.adID);
+        }
     }
 
     public void ShowRewardedAd()

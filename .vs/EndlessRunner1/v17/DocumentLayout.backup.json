@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\endlessrunner1\\assets\\scripts\\optionsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\optionsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\assets\\scripts\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\endlessrunner1\\assets\\scripts\\shopmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shopmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\endlessrunner1\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\assets\\scripts\\skinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\assets\\scripts\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7056F94E-5E90-C330-F9FB-7B0C513B2C14}|Assembly-CSharp.csproj|C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,6 +55,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OptionsMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\Assets\\Scripts\\OptionsMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OptionsMenu.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\Assets\\Scripts\\OptionsMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OptionsMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T02:21:39.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShopMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\Assets\\Scripts\\ShopMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ShopMenu.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\Assets\\Scripts\\ShopMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ShopMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T02:11:32.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\Assets\\Scripts\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
@@ -59,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SkinManager.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\Assets\\Scripts\\SkinManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SkinManager.cs",
@@ -67,25 +101,24 @@
               "RelativeToolTip": "Assets\\Scripts\\SkinManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T01:30:32.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T01:30:32.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ShopManager.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\Assets\\Scripts\\ShopManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ShopManager.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\Assets\\Scripts\\ShopManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ShopManager.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAAAIkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwC0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T00:20:28.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CurrencyHUD.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\Assets\\Scripts\\CurrencyHUD.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CurrencyHUD.cs",
@@ -93,12 +126,11 @@
               "RelativeToolTip": "Assets\\Scripts\\CurrencyHUD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T00:24:22.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T00:24:22.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -106,12 +138,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:40:58.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:40:58.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "SaveGameManager.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\Assets\\Scripts\\SaveGameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SaveGameManager.cs",
@@ -119,12 +150,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SaveGameManager.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwD4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T14:22:04.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T14:22:04.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "TileManager.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\Assets\\Scripts\\Tiles\\TileManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tiles\\TileManager.cs",
@@ -136,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "BackgroundManager.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\EndlessRunner1\\Assets\\Scripts\\BackgroundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BackgroundManager.cs",

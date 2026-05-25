@@ -168,6 +168,6 @@ public class ShopManager : MonoBehaviour
     private void ChangeScene()
     {
         SaveGameManager.Save();
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Gameplay");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu");
     }
 }

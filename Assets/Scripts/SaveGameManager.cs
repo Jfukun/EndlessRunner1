@@ -42,13 +42,12 @@ public static class SaveGameManager
 
     public static int Load()
     {
-        // Always start currencies from zero — they will be restored from the save file
+        // Always start currencies from zero
         int loadedHighScore = 0;
 
         if (!File.Exists(FilePath))
         {
             Debug.Log("[SaveGameManager] No save file found, starting fresh.");
-            // Clear any leftover PlayerPrefs from old sessions
             PlayerPrefs.DeleteKey("RecordScore");
             PlayerPrefs.Save();
             return 0;
@@ -70,7 +69,6 @@ public static class SaveGameManager
         return loadedHighScore;
     }
 
-    // Call this from a debug button in the options menu during development
     public static void DeleteSave()
     {
         if (File.Exists(FilePath)) File.Delete(FilePath);

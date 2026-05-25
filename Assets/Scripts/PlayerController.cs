@@ -39,7 +39,6 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // --- Hit an obstacle ---
         if (other.gameObject.layer == LayerMask.NameToLayer("obstacles"))
         {
             m_TileManager.m_IsGameOver = true;
@@ -64,7 +63,6 @@ public class PlayerController : MonoBehaviour
             m_GameOverScreenWithoutReward.SetActive(!adReady);
         }
 
-        // --- Collected a coin from the ground ---
         bool isGem = other.CompareTag("Gems") ||
                      (other.transform.parent != null && other.transform.parent.CompareTag("Gems"));
 
@@ -95,7 +93,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            Debug.Log("[PlayerController] Not enough gems to revive.");
+            Debug.Log("Not enough gems to revive.");
         }
     }
 

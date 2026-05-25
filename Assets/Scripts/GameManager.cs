@@ -9,7 +9,6 @@ public static class GameManager
     public static bool[] UnlockedSkins { get; set; }
     public static int EquippedSkinIndex { get; set; }
 
-    // Called by SaveGameManager.Load() to restore persisted values
     public static void SetCoins(int amount) { Coins = amount; }
     public static void SetGems(int amount) { Gems = amount; }
 

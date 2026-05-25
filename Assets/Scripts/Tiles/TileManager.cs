@@ -9,7 +9,7 @@ public class TileManager : MonoBehaviour
     public List<GameObject> m_InactiveTiles = new List<GameObject>();
 
     public float m_TileLength = 30.0f;
-    public int m_NumberOfTiles = 5;
+    public int m_NumberOfTiles = 8;
     public int m_PoolSizePerPrefab = 4;
 
     [Header("Speed / Difficulty")]

@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class TouchController : MonoBehaviour
@@ -14,7 +15,7 @@ public class TouchController : MonoBehaviour
 
     public Animator m_Animator;
 
-    public float verticalSpeed = 5f;
+    public float verticalSpeed = 15f;
     public float horizontalSpeed = 15f;
     public float holdTime = 1f;
 
@@ -24,6 +25,8 @@ public class TouchController : MonoBehaviour
 
     private float m_Timer = 0f;
     private bool m_IsHolding = false;
+    private bool m_IsSliding = false;
+    private bool m_IsJumping = false;
 
 
     void Update()
@@ -88,7 +91,7 @@ public class TouchController : MonoBehaviour
                 }else swipeUp = true;
             }
             Reset();
-            
+
             if (swipeLeft)
             {
                 if (m_TargetX > -2.5f)
@@ -107,10 +110,10 @@ public class TouchController : MonoBehaviour
 
                 Debug.Log("SwipeRight");
 
-            }else if (swipeUp)
+            }else if (swipeUp && !m_IsJumping)
             {
-             
-                m_TargetY = 2.25f;
+                m_IsJumping = true;
+                m_TargetY = 3.25f;
                 m_IsHolding = false;
                 m_Timer = holdTime;
 
@@ -121,9 +124,9 @@ public class TouchController : MonoBehaviour
                 SoundsManager.SoundJump();
 
             }
-            else if (swipeDown)
+            else if (swipeDown && !m_IsSliding)
             {
-
+                m_IsSliding = true;
                 m_TargetY = 0.75f;
                 m_IsHolding = false;
                 m_Timer = holdTime;
@@ -159,6 +162,8 @@ public class TouchController : MonoBehaviour
             {
                 m_TargetY = m_DefaultY;
                 m_IsHolding = false;
+                m_IsJumping = false;
+                m_IsSliding = false;
 
                 this.transform.rotation = Quaternion.Euler(0, 0, 0);
                 if (m_Animator != null) m_Animator.speed = 1f;

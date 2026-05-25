@@ -64,10 +64,12 @@
     <Compile Include="Assets\Scripts\SliderController.cs" />
     <Compile Include="Assets\Scripts\NotificationsManager.cs" />
     <Compile Include="Assets\Scripts\Tiles\Tile.cs" />
+    <Compile Include="Assets\Scripts\ShopManager.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Audio\CheckSFXVolume.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUI.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\SkinManager.cs" />
     <Compile Include="Assets\Shaders\WorldCurver.cs" />
     <Compile Include="Assets\Scripts\AdsManager.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIElement.cs" />
@@ -75,6 +77,7 @@
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIData.cs" />
     <Compile Include="Assets\Scripts\SoundsManager.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Audio\CheckMusicVolume.cs" />
+    <Compile Include="Assets\Scripts\MaterialChanger.cs" />
     <Compile Include="Assets\Scripts\TitlePulse.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Misc\ExtraLinks.cs" />
     <Compile Include="Assets\Scripts\TouchController.cs" />
@@ -85,6 +88,7 @@
     <Compile Include="Assets\Scripts\Tiles\TileManager.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Managers\UIMenuManager.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Misc\ResetDemo.cs" />
+    <Compile Include="Assets\Scripts\ShopMenu.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Managers\UISettingsManager.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
   </ItemGroup>
@@ -670,6 +674,14 @@
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
       <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.11f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.11f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">

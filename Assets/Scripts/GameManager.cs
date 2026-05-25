@@ -5,6 +5,10 @@ public static class GameManager
     public static int Coins { get; private set; }
     public static int Gems { get; private set; }
 
+    public static int HighScore { get; set; }
+    public static bool[] UnlockedSkins { get; set; }
+    public static int EquippedSkinIndex { get; set; }
+
     // Called by SaveGameManager.Load() to restore persisted values
     public static void SetCoins(int amount) { Coins = amount; }
     public static void SetGems(int amount) { Gems = amount; }

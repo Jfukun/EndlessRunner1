@@ -55,6 +55,7 @@ MonoBehaviour:
   - {fileID: 6610752827385766365}
   - {fileID: 4963817253212500546}
   - {fileID: 1881497199111996648}
+  m_IsSafeTile: 0
 --- !u!1 &8977320669184499586
 GameObject:
   m_ObjectHideFlags: 0
@@ -665,6 +666,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 2a2a9baf1e9a1de47a6d6ea2f5a102b6, type: 3}
       propertyPath: m_Name
       value: RoadWorksBarrierLow
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2a2a9baf1e9a1de47a6d6ea2f5a102b6, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 2a2a9baf1e9a1de47a6d6ea2f5a102b6, type: 3}
       propertyPath: m_TagString

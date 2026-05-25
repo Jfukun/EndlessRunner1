@@ -169,6 +169,7 @@ MonoBehaviour:
   - {fileID: 5390528406393229688}
   - {fileID: 8497990758932547488}
   - {fileID: 3088317756538035559}
+  m_IsSafeTile: 0
 --- !u!1001 &344519312475417920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -240,6 +241,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 2fea900cb821572499540edd2a78ca4e, type: 3}
       propertyPath: m_Name
       value: RoadWorksBarrierHigh
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2fea900cb821572499540edd2a78ca4e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 2fea900cb821572499540edd2a78ca4e, type: 3}
       propertyPath: m_TagString

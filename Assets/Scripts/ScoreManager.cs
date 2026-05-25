@@ -22,8 +22,9 @@ public class ScoreManager : MonoBehaviour
         if (m_Instance == null)
         {
             m_Instance = this;
-            m_RecordScore = SaveGameManager.Load();
-            m_RecordScoreText.text = "Record: " + m_RecordScore;
+            SaveGameManager.Load();
+
+            m_RecordScoreText.text = "Record: " + GameManager.HighScore;
             m_CurrentScoreText.text = "Score: 0";
         }
         else
@@ -49,15 +50,13 @@ public class ScoreManager : MonoBehaviour
     public static void SaveScore()
     {
         int finalScore = Mathf.FloorToInt(m_Instance.m_Score);
-        if (finalScore > m_Instance.m_RecordScore)
+        if (finalScore > GameManager.HighScore)
         {
-            m_Instance.m_RecordScore = finalScore;
-            m_Instance.m_RecordScoreText.text = "Record: " + m_Instance.m_RecordScore;
+            GameManager.HighScore = finalScore;
+            m_Instance.m_RecordScoreText.text = "Record: " + GameManager.HighScore;
         }
-        SaveGameManager.Save(m_Instance.m_RecordScore);
+        SaveGameManager.Save();
     }
-
-    public static int GetHighScore() => m_Instance.m_RecordScore;
 
     public static void ResetCurrentScore()
     {

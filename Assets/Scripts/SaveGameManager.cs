@@ -13,6 +13,15 @@ public static class SaveGameManager
         public int totalCoins;
         public int totalGems;
         public string lastPlayed;
+
+        // Shop data
+        public bool[] unlockedSkins;
+        public int equippedSkinIndex;
+    }
+
+    public static void Save()
+    {
+        Save(GameManager.HighScore);
     }
 
     public static void Save(int highScore)
@@ -22,7 +31,9 @@ public static class SaveGameManager
             highScore = highScore,
             totalCoins = GameManager.Coins,
             totalGems = GameManager.Gems,
-            lastPlayed = DateTime.Now.ToString("o")
+            lastPlayed = DateTime.Now.ToString("o"),
+            unlockedSkins = GameManager.UnlockedSkins,
+            equippedSkinIndex = GameManager.EquippedSkinIndex
         };
 
         File.WriteAllText(FilePath, JsonUtility.ToJson(data, prettyPrint: true));
@@ -49,6 +60,9 @@ public static class SaveGameManager
         // Restore currencies into GameManager
         GameManager.SetCoins(data.totalCoins);
         GameManager.SetGems(data.totalGems);
+        GameManager.HighScore = data.highScore;
+        GameManager.UnlockedSkins = data.unlockedSkins;
+        GameManager.EquippedSkinIndex = data.equippedSkinIndex;
 
         loadedHighScore = data.highScore;
         Debug.Log($"[SaveGameManager] Loaded — highscore: {data.highScore}, coins: {data.totalCoins}, gems: {data.totalGems}");
@@ -64,6 +78,8 @@ public static class SaveGameManager
         PlayerPrefs.Save();
         GameManager.SetCoins(0);
         GameManager.SetGems(0);
+        GameManager.UnlockedSkins = null;
+        GameManager.EquippedSkinIndex = 0;
         Debug.Log("[SaveGameManager] Save deleted.");
     }
 }
